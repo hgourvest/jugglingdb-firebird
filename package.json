@@ -1,0 +1,24 @@
+{
+  "name": "jugglingdb-firebird",
+  "version": "0.0.1",
+  "description": "Jugglingdb firebird database adapter",
+  "keywords": [
+    "orm",
+    "firebird",
+    "database",
+    "rdbms"
+  ],
+  "dependencies": {
+    "node-firebird": "*"
+  },
+  "homepage": "http://github.com/hgourvest/jugglingdb-firebird",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hgourvest/jugglingdb-firebird"
+  },
+  "author": {
+    "name": "Henri Gourvest",
+    "email": "hgourvest@gmail.com"
+  },
+  "main": "./lib"
+}
