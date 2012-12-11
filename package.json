@@ -9,7 +9,8 @@
     "rdbms"
   ],
   "dependencies": {
-    "node-firebird": "*"
+    "node-firebird": "*",
+    "jugglingdb": "*"
   },
   "homepage": "http://github.com/hgourvest/jugglingdb-firebird",
   "repository": {
