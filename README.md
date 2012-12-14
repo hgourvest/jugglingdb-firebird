@@ -1,17 +1,12 @@
-# jugglingdb-firebird
+## JugglingDB-firebird
 
-Firebird database adapter for JugglingDB
+Firebird database adapter for JugglingDB.
 
 ## Install
 
 	npm install jugglingdb jugglingdb-firebird
 
 ## Usage
-
-```javascript
-var Schema = require('jugglingdb').Schema;
-var schema = new Schema('firebird', {database: "/path/to/database.fdb"});
-
 
 To use it you need `jugglingdb@0.2.x`.
 
@@ -22,7 +17,7 @@ To use it you need `jugglingdb@0.2.x`.
       ...
       "dependencies": {
         "jugglingdb": "0.2.x",
-        "jugglingdb-mysql": "latest"
+        "jugglingdb-firebird": "latest"
       },
       ...
     }
@@ -32,7 +27,7 @@ To use it you need `jugglingdb@0.2.x`.
 
     ```javascript
         var Schema = require('jugglingbd').Schema;
-        var schema = new Schema('mysql', {
+        var schema = new Schema('firebird', {
             database: '/path/to/database.fdb'
         });
     ```
