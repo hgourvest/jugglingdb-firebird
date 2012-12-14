@@ -24,5 +24,8 @@
     "name": "Henri Gourvest",
     "email": "hgourvest@gmail.com"
   },
-  "main": "./index.js"
+  "scripts": {
+    "test": "nodeunit test/firebird.js"
+  },
+  "main": "index.js"
 }
