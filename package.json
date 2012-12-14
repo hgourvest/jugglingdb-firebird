@@ -9,8 +9,11 @@
     "rdbms"
   ],
   "dependencies": {
-    "node-firebird": "*",
-    "jugglingdb": "*"
+    "node-firebird": "*"
+  },
+  "devDependencies": {
+    "jugglingdb": "0.2.x",
+    "nodeunit": "latest"
   },
   "homepage": "http://github.com/hgourvest/jugglingdb-firebird",
   "repository": {
@@ -21,5 +24,8 @@
     "name": "Henri Gourvest",
     "email": "hgourvest@gmail.com"
   },
-  "main": "./lib"
+  "scripts": {
+    "test": "nodeunit test/firebird.js"
+  },
+  "main": "index.js"
 }
